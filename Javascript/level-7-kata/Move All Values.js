@@ -10,6 +10,8 @@
 
 function moveVowel(word) {
     var vowels = word.match(/[aeiou]/g);
-    var withoutVowels = word.replace(/[aeiou]/g, '').split('');
-    return [...withoutVowels, ...vowels].join('');
+    var consonants = word.replace(/[aeiou]/g, '').split('');
+    return [...consonants, ...vowels].join('');
 }
+
+moveVowel('apple')
