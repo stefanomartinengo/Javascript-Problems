@@ -10,6 +10,7 @@
 -- age
 -- total_people
 
+-- https://www.codewars.com/kata/sql-basics-simple-having/sql
 
 SELECT age AS age, COUNT(id) AS total_people FROM people
 GROUP BY age
