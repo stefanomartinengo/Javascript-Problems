@@ -1,0 +1,4 @@
+-- SQL Basics: Create a FUNCTION
+
+CREATE FUNCTION INCREMENT(age)
+RETURN age++
