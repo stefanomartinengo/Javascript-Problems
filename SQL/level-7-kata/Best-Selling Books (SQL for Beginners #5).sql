@@ -15,10 +15,4 @@
 SELECT name as Name, author as Author, copies_sold as Copies_Sold FROM
 books
 ORDER BY copies_sold desc
-LIMIT 5 
-
-
-
-
-
-
+LIMIT 5;
