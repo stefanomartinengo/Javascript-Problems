@@ -21,3 +21,12 @@ function order(words){
   }
   return arr.join(' ').trim()
 }
+
+// Alt solution
+
+function order(words){
+  
+    return words.split(' ').sort(function(a, b){
+        return a.match(/\d/) - b.match(/\d/);
+     }).join(' ');
+  }    
