@@ -22,6 +22,6 @@
 
 class FileNameExtractor {
     static extractFileName (file) {
-         return file.replace(/\d+./, '').split('.').slice(0, -1).join('.')
+      return file.replace(/\d+./, '').split('.').slice(0, -1).join('.')
   }
 }

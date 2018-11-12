@@ -13,7 +13,7 @@
 function toCamelCase(str){
     var splitStr = str.split(`${str.match(/[_-]/)}`)
     var arr = []
-    
+
     for(let i = 0; i < splitStr.length; i++) {
         if(i !== 0) {
             let cap = splitStr[i].substring(0,1).toUpperCase()

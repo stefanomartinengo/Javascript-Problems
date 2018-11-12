@@ -22,7 +22,7 @@ function wordsToObject(string) {
     let arr = [];
     var currentName = '';
     var currentId = '';
-    
+
     for(let i = 0; i < split.length; i++) {
         if(i % 2 === 0 || i === 0) {
             currentName = split[i];
