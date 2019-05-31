@@ -5,7 +5,7 @@
     // Examples:
 
         // // returns "theStealthWarrior"
-        // toCamelCase("the-stealth-warrior") 
+        // toCamelCase("the-stealth-warrior")
 
         // // returns "TheStealthWarrior"
         // toCamelCase("The_Stealth_Warrior")
@@ -20,5 +20,5 @@ function toCamelCase(str){
             arr.push(cap + splitStr[i].substring(1))
         } else arr.push(splitStr[i])
     }
-    return arr.join('')
+    return arr.join('');
 }
